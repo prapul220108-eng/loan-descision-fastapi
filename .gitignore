@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large raw datasets (Prevent pushing 50MB+ and 1.6GB CSV files to GitHub)
+*.csv
+!sample_data.csv
+
+# Keep trained model bundles
+!models/loan_model_bundle.joblib
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
